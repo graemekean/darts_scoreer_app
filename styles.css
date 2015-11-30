@@ -1,0 +1,36 @@
+.center {
+  text-align: center;
+}
+
+.chalkboard {
+  width:100%;
+  height:800px;
+  background-image: url("images/chalk.jpg");
+}
+
+.black {
+  color: black;
+}
+
+
+
+h1 {
+  color:white;
+}
+
+h2 {
+  color:white;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  color:white;
+}
+
+li {
+  color: white;
+  font-size: 18pt;
+}

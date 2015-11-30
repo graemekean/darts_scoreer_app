@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+
+<!-- INSTALL BOOTSTRAP FROM CDN____________________________________________________________ -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+<body>
+
+<div class="container center">
+  <h2 id="instructions">Darts Scoreboard</h2>
+</div>
+<div class="col-md-4 center">
+  <h1>Player 1</h1>
+  <p id="player1_info"></p>
+  <div id="player1_form" action="player1_form" style="color:white;">
+  <div>
+    <input type="checkbox" id="1double1" name="double" value="double" unchecked>Double
+    <input type="checkbox" id="1triple1" name="double" value="triple" unchecked>Triple
+    <input id="player1_dart1" type="number" class="black" max="20">
+    <br>
+  </div>
+  <div>
+
+    <input type="checkbox" id="1double2" name="double" value="double" unchecked>Double
+    <input type="checkbox" id="1triple2" name="double" value="triple" unchecked>Triple
+    <input id="player1_dart2" type="number" class="black" max="20">
+    <br>
+  </div>
+  <div>
+    <input type="checkbox" id="1double3" name="double" value="double" unchecked>Double
+    <input type="checkbox" id="1triple3" name="double" value="triple" unchecked>Triple
+    <input id="player1_dart3" type="number" class="black" max="20">
+    <br>
+    <br>
+  </div>
+    <button class="btn-primary" id="player1_submit">Submit</button>
+</div>
+
+
+
+
+  <ul id="player1_list">
+    
+  </ul>
+</div>
+
+
+
+<div class="col-md-4 center">
+  <h1>Scoreboard</h1>
+  <div class="chalkboard">
+    <div class="col-md-6">
+      <ul id="player1_total">
+        <li>501</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul id="player2_total">
+        <li>501</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="col-md-4 center">
+  <h1>Player 2</h1>
+  <p id="player2_info"></p>
+    <div id="player2_form" action="player2_form" style="color:white;">
+    <div>
+      <input type="checkbox" id="2double1" name="double" value="double" unchecked>Double
+      <input type="checkbox" id="2triple1" name="double" value="triple" unchecked>Triple
+      <input id="player2_dart1" type="number" class="black" max="20">
+      <br>
+    </div>
+    <div>
+      <input type="checkbox" id="2double2" name="double" value="double" unchecked>Double
+      <input type="checkbox" id="2triple2" name="double" value="triple" unchecked>Triple
+      <input id="player2_dart2" type="number" class="black" max="20">
+      <br>
+    </div>
+    <div>
+      <input type="checkbox" id="2double3" name="double" value="double" unchecked>Double
+      <input type="checkbox" id="2triple3" name="double" value="triple" unchecked>Triple
+      <input id="player2_dart3" type="number" class="black" max="20">
+      <br>
+    </div>
+      <br>
+      <button class="btn-primary" id="player2_submit">Submit</button>
+    </div>
+    
+  </ul>
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="application.js"></script>
+
+
+</body>
+</html>
